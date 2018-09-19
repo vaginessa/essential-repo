@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>essentialAPK</title>
+	<link href="/static/repomaker/css/repo/page.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+
+	<header class="repo-header mdl-layout__header mdl-layout__header--waterfall">
+		<div class="mdl-layout__header-row">
+			
+<div class="mdl-layout-title">
+	<span class="only-desktop">
+		To install these apps on your Android phone, add them to F-Droid.
+		<a href="https://f-droid.org" target="_blank">Get F-Droid</a>
+	</span>
+
+	<div id="repo-buttons-add">
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored only-mobile"
+				onclick="showInstallButtons()">
+			Add to F-Droid
+		</button>
+	</div>
+	<a href="assets/qr_code.html" class="rm-no-underline only-desktop">
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+			Add to F-Droid
+		</button>
+	</a>
+	<div id="repo-buttons-install" class="only-mobile">
+		<a href="https://f-droid.org" target="_blank" class="rm-no-underline">
+			<button id="repo-buttons-install-need"
+					class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+				I need F-Droid
+			</button>
+		</a>
+		<a href="fdroidrepos://repomaker.grobox.de/repos/user_133/repo_142/repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC" class="repo-buttons-install-have">
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+					onclick="addRepo()">
+				I have F-Droid
+			</button>
+		</a>
+	</div>
+</div>
+
+<nav class="mdl-navigation">
+	
+	<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20F-Droid%20repo%3A%20essentialAPK&url=https%3A//repomaker.grobox.de/repos/user_133/repo_142/repo%3Ffingerprint%3DF3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC"
+	   target="_blank">
+		<img src="assets/twitter.png"/>
+	</a>
+	
+	<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//repomaker.grobox.de/repos/user_133/repo_142/repo%3Ffingerprint%3DF3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC"
+	   target="_blank">
+		<img src="assets/facebook.png"/>
+	</a>
+</nav>
+
+		</div>
+	</header>
+
+	<main class="mdl-layout__content">
+		
+		<section class="mdl-grid mdl-cell--10-col">
+			<div class="mdl-cell mdl-cell--12-col repo-content">
+				<h3>essentialAPK</h3>
+				<p>My essential APKs</p>
+			</div>
+			
+		</section>
+		<footer class="mdl-mega-footer" id="f-droid">
+			<div class="mdl-mega-footer__top-section mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col fdroid-icon">
+	<img src="assets/f-droid.png"/>
+</div>
+<div class="mdl-cell mdl-cell--8-col fdroid-text">
+	<p>Use F-Droid to install apps and ensure access to app updates.</p>
+
+	<p>
+		F-Droid is an independent, community-sourced app store.
+		Adding a repo to  F-Droid makes the apps within it available for download
+		and ensures that you have access to secure app updates.
+	</p>
+	<p>
+		Download F-Droid at <a href="https://f-droid.org">f-droid.org</a>.
+	</p>
+</div>
+
+			</div>
+			<div class="mdl-mega-footer__bottom-section">
+				<span class="repo-made-with">Made with ❤ using repomaker.</span>
+				Create your own collections to share at
+				<a href="https://gitlab.com/fdroid/repomaker">f-droid.org/repomaker</a>.
+			</div>
+		</footer>
+
+	</main>
+</div>
+
+
+<script src="material.min.js"></script>
+<script type="text/javascript">
+	var add = document.getElementById('repo-buttons-add');
+	var install = document.getElementById('repo-buttons-install');
+	add.style.display = 'inline-block';
+	install.style.display = 'none';
+	function showInstallButtons() {
+		add.style.display = 'none';
+		install.style.display = 'inline-block';
+	}
+	function addRepo() {
+		add.style.display = 'inline-block';
+		install.style.display = 'none';
+	}
+</script>
+
+
+</body>
+</html>
