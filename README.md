@@ -7,7 +7,7 @@ Made with ♥ & https://repomaker.grobox.de/
 [![](https://repomaker.grobox.de/repos/user_133/repo_142/repo/assets/qrcode.png)  
 essentialAPK](https://repomaker.grobox.de/repos/user_133/repo_142/repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC)
 
-https://raw.githubusercontent.com/vaginessa/essential-repo/master/fdroid/repo/repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC
+https://raw.githubusercontent.com/vaginessa/essential-repo/master/fdroid/repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC
 
 
 My essential APKs
