@@ -3,7 +3,7 @@ my essential APKs fdroid repo
 
 Made with ♥ & https://repomaker.grobox.de/
 
- ### Scan the QR code to add [essentialAPK](https://repomaker.grobox.de/repos/user_133/repo_142/repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC) to F-Droid. 
+ ### Scan the QR code to add [essentialAPK](https://repomaker.grobox.de/repos/user_133/repo_142repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC) to F-Droid. 
 [![](https://repomaker.grobox.de/repos/user_133/repo_142/repo/assets/qrcode.png)  
 essentialAPK](https://repomaker.grobox.de/repos/user_133/repo_142/repo?fingerprint=F3A2C90A3D56184623424E0B1E4C19CD18579A86F4D2CD6F24D802C9F77E27BC)
 
